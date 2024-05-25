@@ -24,38 +24,55 @@
 </head>
 <body>
     <div id="navbar-container"></div>
-  <section data-bs-version="5.1" class="menu menu2 cid-udAC5yGola" once="menu" id="menu-5-udAC5yGola">
+
+    <section data-bs-version="5.1" class="menu menu2 cid-udAC5yGola" once="menu" id="menu-5-udAC5yGola">
 	
 
-	<nav class="navbar navbar-dropdown navbar-expand-lg">
-		<div class="container">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<div class="hamburger">
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
+        <nav class="navbar navbar-dropdown navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+              
+                    </div>
+                </button>
           
-				</div>
-			</button>
-      
-			 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-        <li class="nav-item">
-          <span class="mbri-smile-face mbr-iconfont mbr-iconfont-btn"></span>
-          <textarea id="text-input" name="text-input" rows="3" cols="100" placeholder="Enter your data here" text-align: center></textarea>
-        </li>
-    </ul>
+                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+            <li class="nav-item">
+              <span class="mbri-smile-face mbr-iconfont mbr-iconfont-btn"></span>
+              <textarea id="text-input" name="text-input" rows="3" cols="100" placeholder="Enter your data here" text-align: center></textarea>
+            </li>
+        </ul>
+    
+            <div class="navbar-buttons mbr-section-btn">
+              <button class="btn btn-primary display-4" onclick="detectEmotions()">Detect Emotions</button>
+            </div>
+            <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
+          
+            
+            <script src="script.js"></script>
+                </div>
+            </div>
+        </nav>
+    </section>
 
-        <div class="navbar-buttons mbr-section-btn">
-          <button class="btn btn-primary display-4" onclick="detectEmotions()">Detect Emotions</button>
+    <section data-bs-version="5.1" class="header16 cid-udAC5yIy4H mbr-fullscreen mbr-parallax-background" id="hero-17-udAC5yIy4H">
+  
+  
+        <div class="container-fluid">
+          <div class="row">
+            <div class="content-wrap col-8 col-md-8">
+              <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-2">
+                <strong>Emotion Detection</strong></h1>
+              
+              <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Unleash the Power of Emotions - Discover, Understand, and Connect with EmoSense!</p>
+            </div>
+          </div>
         </div>
-        <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
-      
-        
-        <script src="script.js"></script>
-			</div>
-		</div>
-	</nav>
-</section>
+      </section>
+  
 </body>
 </html>
