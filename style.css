@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.navbar .brand {
+  float: left;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar-right a {
+  float: left; 
+}
+
+.navbar a:hover {
+  background-color: #555;
+  color: white;
+  transform: scale(1.05);
+}
+
+.container {
+  padding: 20px;
+}
+
+#text-input {
+  display: block;
+  width: 80%;
+  margin: 20px auto; 
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#text-input:focus {
+  border-color: #333;
+  outline: none;
+}
+
+button {
+  display: block;
+  margin: 10px auto; 
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}

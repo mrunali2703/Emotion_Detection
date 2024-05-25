@@ -1,3 +1,12 @@
+document.addEventListener("DOMContentLoaded", function() {
+    fetch("navbar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("navbar-container").innerHTML = data;
+      })
+      .catch(error => console.error('Error loading the navbar:', error));
+  });
+
 async function detectEmotions() {
     const text = document.getElementById('text-input').value;
     console.log("Text to analyze:", text);  // Log the text input
